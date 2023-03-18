@@ -74,7 +74,7 @@ exports.register = catchAsync(async (req, res, next) => {
 
   const userDb = User.findById(user._id);
 
-    await User.findByIdAndUpdate(user._id,{drones: drones,orderlongitude: orderlongitude,orderlatitude: orderlatitude});
+    await User.findByIdAndUpdate(user._id,{drones: drones,orderlongitude: orderlongitude,orderlatitude: orderlatitude, status: "Pending"});
 
   res.status(200).json({
     status: "success",

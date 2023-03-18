@@ -340,6 +340,14 @@ const settings = ['Logout'];
     </Button>
         </Typography>
     </div>
+    <div style={{marginLeft: "1%", marginTop: "5%"}}>
+      {
+        account?.drones!==0 &&
+      <Typography variant='h4'>
+        Your Prev Order Status: {account?.status}
+      </Typography>
+}
+    </div>
         </MDBBreadcrumbItem>
     </MDBBreadcrumb>
     </div>

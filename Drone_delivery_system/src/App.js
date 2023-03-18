@@ -20,6 +20,9 @@ const App = () => {
         <Route exact path="/" >
           <Home />
         </Route>
+        <Route exact path="/admin">
+
+        </Route>
       </Switch>
     </Router>
     </>
