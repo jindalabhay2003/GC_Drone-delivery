@@ -1,0 +1,109 @@
+{
+  "events": [
+    {
+      "name": "music",
+      "fee": 100
+    },
+    {
+      "name": "dance",
+      "fee": 100
+    },
+    {
+      "name": "dramatics",
+      "fee": 100
+    },
+    {
+      "name": "literary",
+      "fee": 100
+    },
+    {
+      "name": "fine_arts",
+      "fee": 100
+    },
+    {
+      "name": "photography",
+      "fee": 100
+    },
+    {
+      "name": "Miscellaneous Events",
+      "fee": 100
+    },
+    {
+      "name": "Quiz",
+      "fee": 100
+    }
+  ],
+  "subevents": 
+  [
+    [
+      "music",
+      [
+        { "name": "EUPHONY", "id": "music-1" },
+        { "name": "UNPLUGGED", "id": "music-2" }
+      ]
+    ],
+    [
+      "dance",
+      [
+        { "name": "Rip Out", "id": "dance-1" },
+        { "name": "DANCE BATTLE", "id": "dance-2" },
+        { "name": "GROUP DANCE-TOPSY TURVY", "id": "dance-3" }
+
+      ]
+    ],
+    [
+      "dramatics",
+      [
+        { "name": "FACE OFF", "id": "dramatics-1" },
+        { "name": "SPOTLIGHT", "id": "dramatics-2" },
+        { "name": "Nukkad", "id": "dramatics-3" },
+        { "name": "ENCIRCLED", "id": "dramatics-4" }
+      ]
+    ],
+    [
+      "literary",
+      [
+        { "name": "Block and Tackle", "id": "literary-1" },
+        { "name": "Hindi Slam Poetry", "id": "literary-2" },
+        { "name": "VOCAB CLASH", "id": "literary-3" },
+        { "name": "DEBATTLE", "id": "literary-4" },
+        { "name": "METAMORPHOSIS", "id": "literary-5" }
+        
+      ]
+    ],
+    [
+      "photography",
+      [
+        { "name": "48hr SHORT FILM", "id": "photography-1" },
+        { "name": "PIC OF THE DAY", "id": "photography-2" }
+      ]
+    ],
+    [
+      "fine_arts",
+      [
+        { "name": "NAQAAB", "id": "fine_arts-1" },
+        { "name": "SHADES", "id": "fine_arts-2" },
+        { "name": "Monochrome", "id": "fine_arts-3" }
+
+      ]
+    ],
+    
+    
+    [
+      "Miscellaneous Events", 
+      [
+        { "name": "Antakshari", "id": "miscellaneous_Event-1"},
+        { "name": "ESCAPE ROOM", "id": "miscellaneous_Event-2"},
+        { "name": "TREASURE HUNT", "id": "miscellaneous_Event-3"},
+        { "name": "RAINDANCE", "id": "miscellaneous_Event-4"},
+        { "name": "REEL IT", "id": "miscellaneous_Event-5"}
+      ]
+  ],
+  [
+    "Quiz",
+    [
+      {"name":"MELA QUIZ", "id": "Quiz-1"}
+    ]
+  ]
+]
+}
