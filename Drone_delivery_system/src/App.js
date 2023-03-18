@@ -7,6 +7,7 @@ import Login from "./Component/Login.jsx"
 import Home from "./Component/Home";
 import "./index.css"
 import Navbar from "./Component/Navbar";
+import DashboardContent from "./Component/Dashboard.js"
 
 const App = () => {
 
@@ -21,7 +22,7 @@ const App = () => {
           <Home />
         </Route>
         <Route exact path="/admin">
-
+          <DashboardContent />
         </Route>
       </Switch>
     </Router>
